@@ -1,11 +1,11 @@
 import React from "react";
-import ticketsImage from "./../img/tickets.png";
 
 function Header() {
   return (
     <React.Fragment>
-      <h1>Help Queue</h1>
-      <img src={ticketsImage} alt="An image of tickets" />
+      <h1>The Social Media</h1>
+      <input type="text"></input>
+      <button>Submit</button>
     </React.Fragment>
   );
 }
