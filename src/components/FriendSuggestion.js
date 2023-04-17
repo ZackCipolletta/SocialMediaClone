@@ -8,17 +8,17 @@ import Thato from "./../img/Thato.jpg";
 const mainFeedList = [
   {
     name: "Thato",
-    image: <img src={Thato} alt="Thato" style={{ width: '10%' }} />,
+    image: <img src={Thato} alt="Thato" style={{ width: '100px' }} />,
     post: "Firebase won\'t save record. Halp."
   },
   {
     name: "Sleater",
-    image: <img src={Sleater} alt="Sleater" style={{ width: '10%' }} />,
+    image: <img src={Sleater} alt="Sleater" style={{ width: '100px' }} />,
     post: "Prop types are throwing an error."
   },
   {
     name: "Imani",
-    image: <img src={Imani} alt="Imani" style={{ width: '10%' }} />,
+    image: <img src={Imani} alt="Imani" style={{ width: '100px' }} />,
     post: "Child component isn\'t rendering."
   }
 ];

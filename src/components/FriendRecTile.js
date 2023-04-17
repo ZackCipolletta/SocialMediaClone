@@ -5,10 +5,16 @@ import PropTypes from "prop-types";
 function FriendRecTile(props) {
   return (
     <React.Fragment>
-      <h3>{props.name}</h3>
-      <h4>{props.image}</h4>
-      <button>Button</button>
-      <hr/>
+      <div className="row">
+        <div className="col-auto">
+          <h4>{props.image}</h4>
+        </div>
+        <div className="col">
+          <h3>{props.name}</h3>
+          <button className="btn btn-primary">Button</button>
+        </div>
+      </div>
+      <hr />
     </React.Fragment>
   );
 }

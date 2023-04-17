@@ -12,4 +12,16 @@ code {
     monospace;
 }
 
+.float-left {
+  float: left;
+  margin-right: -150px;
+}
 
+.float-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.fixed-width {
+  min-width: 250px;
+}

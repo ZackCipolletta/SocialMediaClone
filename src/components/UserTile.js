@@ -7,7 +7,7 @@ function UserTile(props) {
   return (
     <React.Fragment>
       <h2><em>James P. Weinerstein</em></h2>
-      <img src={James} alt="James" style={{ width: '10%' }} /> <br></br>
+      <img src={James} alt="James" style={{ width: '150px' }} /> <br></br>
       <button>Tweets</button>
       <button>Following</button>
       <button>Followers</button>

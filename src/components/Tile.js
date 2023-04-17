@@ -1,13 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Col } from 'react-bootstrap';
 
 
 function Tile(props) {
   return (
     <React.Fragment>
-      <h3>{props.name} - {props.post}</h3>
-      <h4>{props.image}</h4>
-      <hr/>
+      <h4 class="float-left">{props.image}</h4>
+      <div class="fix-margin border clearfix">
+      <h3>{props.name}</h3>
+      <h5>{props.post}</h5>
+      </div>
     </React.Fragment>
   );
 }
