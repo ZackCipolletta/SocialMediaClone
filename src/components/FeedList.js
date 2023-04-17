@@ -25,7 +25,6 @@ const mainFeedList = [
 function FeedList() {
   return (
     <React.Fragment>
-          <hr />
           {mainFeedList.map((ticket, index) =>
             <Tile name={ticket.name}
               image={ticket.image}

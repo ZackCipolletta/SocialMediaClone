@@ -25,7 +25,7 @@ const mainFeedList = [
 function FriendSuggestion() {
   return (
     <React.Fragment>
-          <hr />
+          <div class="border p-3">
           <h3>Do you know?</h3>
           {mainFeedList.map((ticket, index) =>
             <FriendRecTile name={ticket.name}
@@ -34,6 +34,7 @@ function FriendSuggestion() {
               <button type="button">button</button>
             </FriendRecTile>
           )}
+          </div>
     </React.Fragment>
   );
 }

@@ -3,11 +3,17 @@ import React from "react";
 function Header() {
   return (
     <React.Fragment>
-      <h1 class="d-flex justify-content-center align-items-center">The Social Media</h1>
-      <div class="float-right">
+    <div className="d-flex align-items-center m-3">
+      <h3><button>Home</button></h3>
+      <h3><button>Notifications</button></h3>
+      <h3><button>Messages</button></h3>
+      <h1 className="text-center flex-grow-1">The Social Media</h1>
+      <div className="ml-auto">
         <input type="text"></input>
         <button>Submit</button>
       </div>
+    </div>
+    <hr />
     </React.Fragment>
   );
 }
