@@ -1,5 +1,5 @@
 import React from "react";
-import Tile from "./Tile";
+import FriendRecTile from "./FriendRecTile";
 import Imani from "./../img/Imani.jpg";
 import Sleater from "./../img/Sleater.jpg";
 import Thato from "./../img/Thato.jpg";
@@ -22,18 +22,20 @@ const mainFeedList = [
     post: "Child component isn\'t rendering."
   }
 ];
-function FeedList() {
+function FriendSuggestion() {
   return (
     <React.Fragment>
           <hr />
+          <h3>Do you know?</h3>
           {mainFeedList.map((ticket, index) =>
-            <Tile name={ticket.name}
+            <FriendRecTile name={ticket.name}
               image={ticket.image}
-              post={ticket.post}
-              key={index} />
+              key={index}>
+              <button type="button">button</button>
+            </FriendRecTile>
           )}
     </React.Fragment>
   );
 }
 
-export default FeedList;;
+export default FriendSuggestion;;
